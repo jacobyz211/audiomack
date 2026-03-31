@@ -1,18 +1,14 @@
 {
-  "name": "deezer-eclipse-addon",
+  "name": "jamendo-eclipse-addon",
   "version": "1.0.0",
-  "description": "Deezer addon for Eclipse Music",
+  "description": "Jamendo addon for Eclipse Music — 600k+ free full-length tracks",
   "main": "index.js",
-  "scripts": {
-    "start": "node index.js"
-  },
+  "scripts": { "start": "node index.js" },
   "dependencies": {
-    "axios": "^1.7.0",
-    "cors": "^2.8.5",
+    "axios":   "^1.7.0",
+    "cors":    "^2.8.5",
     "express": "^4.19.0",
     "ioredis": "^5.3.2"
   },
-  "engines": {
-    "node": ">=18.0.0"
-  }
+  "engines": { "node": ">=18.0.0" }
 }
